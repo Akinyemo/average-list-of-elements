@@ -10,5 +10,8 @@ def calc_average(x):
     for i in x:
         sum = sum + i
 
+    #if isinstance(sum,int) == False:  #not sure how I would check this short of checking all elements in list
+        #if isinstance(sum,float) == False:
+            #raise ValueError('This list is not an integer or deciml')
     sum = sum / len(x) 
     return(sum)
